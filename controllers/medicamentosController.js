@@ -1,5 +1,5 @@
 const { response, request } = require('express');
-const Medicamento = require('../models/medicamento');
+const Medicamento = require('../models/Medicamento');
 const { Op } = require("sequelize");
 
 

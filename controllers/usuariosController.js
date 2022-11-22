@@ -1,5 +1,5 @@
 const { response, request } = require('express');
-const Usuario = require('../models/usuario');
+const Usuario = require('../models/Usuario');
 const bcryptjs = require('bcryptjs');
 const Role = require('../models/Roles');
 

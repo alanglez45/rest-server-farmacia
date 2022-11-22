@@ -1,5 +1,5 @@
 const Usuario = require('../models/Usuario');
-const Medicamento = require('../models/medicamento');
+const Medicamento = require('../models/Medicamento');
 const Role = require('../models/Roles');
 
 
