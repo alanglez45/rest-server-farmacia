@@ -24,7 +24,7 @@ class Server {
     }
     middlewares() {
         // CORS
-        const whitelist = [process.env.FRONT_END_URL]; //http://localhost:5173/ http://127.0.0.1:5173/
+        const whitelist = [process.env.NODE_ENV_FRONT_END_URL]; //http://localhost:5173/ http://127.0.0.1:5173/
 
         const corsOptions = {
             origin: function (origin, callback) {
